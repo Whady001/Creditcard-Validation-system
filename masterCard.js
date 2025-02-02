@@ -2,7 +2,7 @@ function validateMastercard(cardNumber) {
   //Remove non-digit characters
     const cardNumberLiteral = cardNumber.toString();
     const properCreditCardFormat = cardNumberLiteral.replace(/\D+/g, '');
-    //const properCreditCardNumber = parseInt(properCreditCardFormat)
+    
 
   //Check for valid mastercard length of 16 digits
     if (properCreditCardFormat.length !== 16) {
