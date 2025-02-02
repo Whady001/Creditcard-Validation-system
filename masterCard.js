@@ -44,7 +44,7 @@ return true;
 }
 
 
-validateMastercard(4527287488200994975)
+validateMastercard(4527287488200994975);
 validateMastercard(5136246725888995);
 validateMastercard(5487925789654364);
 validateMastercard(5348796547856321);
